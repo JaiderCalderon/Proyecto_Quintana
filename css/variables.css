@@ -1,0 +1,72 @@
+/* Design tokens - Rubrik AI */
+:root {
+  /* Colores base */
+  --bg-deep: #05060d;
+  --bg-base: #0a0c18;
+  --bg-elevated: #11142270;
+  --bg-card: rgba(20, 24, 44, 0.55);
+  --border-soft: rgba(255, 255, 255, 0.08);
+  --border-strong: rgba(255, 255, 255, 0.14);
+
+  /* Texto */
+  --text-primary: #f3f4ff;
+  --text-secondary: #b4b8d4;
+  --text-muted: #6f7396;
+  --text-dim: #4a4d6b;
+
+  /* Acentos / brand */
+  --accent-1: #6d7bff;        /* azul indigo */
+  --accent-2: #b066ff;        /* morado */
+  --accent-3: #45e6c8;        /* turquesa */
+  --accent-glow: #7c5cff;
+
+  /* Estados */
+  --success: #45e6a8;
+  --warning: #ffc66b;
+  --danger:  #ff6585;
+
+  /* Gradientes */
+  --grad-brand: linear-gradient(135deg, #6d7bff 0%, #b066ff 50%, #45e6c8 100%);
+  --grad-accent: linear-gradient(135deg, #7c5cff, #b066ff);
+  --grad-card: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.01));
+
+  /* Tipografías */
+  --font-display: 'Space Grotesk', 'Inter', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+
+  /* Espaciado */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+  --space-9: 96px;
+
+  /* Radios */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-pill: 999px;
+
+  /* Sombras / glow */
+  --shadow-card: 0 20px 60px -20px rgba(0, 0, 0, 0.6),
+                 0 0 0 1px rgba(255, 255, 255, 0.04) inset;
+  --glow-accent: 0 0 40px rgba(124, 92, 255, 0.45);
+  --glow-soft: 0 0 24px rgba(124, 92, 255, 0.25);
+
+  /* Transiciones */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --t-fast: 180ms;
+  --t-med: 320ms;
+  --t-slow: 600ms;
+
+  /* Layout */
+  --container: 1240px;
+  --header-h: 76px;
+}
